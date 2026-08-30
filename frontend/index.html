@@ -1,15 +1,22 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta
         name="description"
-        content="Soluciones de energía solar y servicios eléctricos en Costa Rica."
+        content="Voltica ofrece soluciones de energía solar, servicios eléctricos y análisis energético en Costa Rica."
     >
+
+    <meta
+        name="keywords"
+        content="paneles solares Costa Rica, energía solar, instalaciones eléctricas, servicios eléctricos, Voltica"
+    >
+
+    <meta name="author" content="Voltica">
 
     <title>Voltica | Energía Solar y Servicios Eléctricos</title>
 
@@ -25,17 +32,21 @@
         <div class="container header-content">
 
             <a href="#inicio" class="logo">
-                Voltica
+                <span class="logo-mark">V</span>
+                <span>Voltica</span>
             </a>
 
             <nav class="nav">
-
                 <a href="#inicio">Inicio</a>
                 <a href="#servicios">Servicios</a>
                 <a href="#nosotros">Nosotros</a>
+                <a href="#proceso">Proceso</a>
                 <a href="#contacto">Contacto</a>
-
             </nav>
+
+            <a href="#contacto" class="header-button">
+                Cotizar
+            </a>
 
         </div>
 
@@ -46,37 +57,63 @@
 
     <main>
 
-        <!-- HERO -->
+        <!-- ================= HERO ================= -->
 
         <section id="inicio" class="hero">
+
+            <div class="hero-background"></div>
 
             <div class="container hero-content">
 
                 <div class="hero-text">
 
                     <p class="hero-tag">
-                        ENERGÍA INTELIGENTE PARA COSTA RICA
+                        ENERGÍA SOLAR · INGENIERÍA ELÉCTRICA
                     </p>
 
                     <h1>
-                        Energía solar para un futuro más eficiente
+                        Energía inteligente para un futuro más eficiente.
                     </h1>
 
                     <p class="hero-description">
-                        Diseñamos soluciones de energía solar y servicios
-                        eléctricos para hogares y empresas.
+                        Diseñamos soluciones solares y eléctricas adaptadas
+                        a las necesidades de hogares y empresas en Costa Rica.
                     </p>
 
                     <div class="hero-buttons">
 
                         <a href="#contacto" class="button button-primary">
                             Solicitar cotización
+                            <span>→</span>
                         </a>
 
                         <a href="#servicios" class="button button-secondary">
-                            Ver servicios
+                            Conocer servicios
                         </a>
 
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-bottom">
+
+                <div class="container hero-stats">
+
+                    <div class="hero-stat">
+                        <strong>Solar</strong>
+                        <span>Soluciones fotovoltaicas</span>
+                    </div>
+
+                    <div class="hero-stat">
+                        <strong>Eléctrico</strong>
+                        <span>Diseño e instalaciones</span>
+                    </div>
+
+                    <div class="hero-stat">
+                        <strong>Eficiencia</strong>
+                        <span>Optimización energética</span>
                     </div>
 
                 </div>
@@ -86,7 +123,40 @@
         </section>
 
 
-        <!-- SERVICIOS -->
+        <!-- ================= INTRO ================= -->
+
+        <section class="intro section">
+
+            <div class="container intro-content">
+
+                <div class="intro-label">
+                    <span></span>
+                    VOLTICA
+                </div>
+
+                <div class="intro-text">
+
+                    <h2>
+                        Ingeniería que convierte la energía
+                        en oportunidades.
+                    </h2>
+
+                    <p>
+                        La energía es una parte fundamental de cualquier
+                        hogar o negocio. En Voltica combinamos ingeniería
+                        eléctrica y tecnología para desarrollar soluciones
+                        que permitan utilizarla de manera más eficiente,
+                        segura y sostenible.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
 
         <section id="servicios" class="services section">
 
@@ -94,17 +164,20 @@
 
                 <div class="section-header">
 
-                    <p class="section-tag">
-                        NUESTROS SERVICIOS
-                    </p>
+                    <div>
+                        <p class="section-tag">
+                            NUESTROS SERVICIOS
+                        </p>
 
-                    <h2>
-                        Soluciones eléctricas y solares
-                    </h2>
+                        <h2>
+                            Soluciones para cada necesidad energética.
+                        </h2>
+                    </div>
 
                     <p>
-                        Ofrecemos soluciones diseñadas según las necesidades
-                        de cada cliente.
+                        Desde una instalación residencial hasta soluciones
+                        para empresas, diseñamos cada proyecto según sus
+                        necesidades.
                     </p>
 
                 </div>
@@ -112,10 +185,16 @@
 
                 <div class="services-grid">
 
-                    <article class="service-card">
+                    <!-- SOLAR -->
+
+                    <article class="service-card service-featured">
+
+                        <div class="service-number">
+                            01
+                        </div>
 
                         <div class="service-icon">
-                            ☀️
+                            ☀
                         </div>
 
                         <h3>
@@ -124,13 +203,24 @@
 
                         <p>
                             Diseño e instalación de sistemas fotovoltaicos
-                            para reducir el consumo de energía de la red.
+                            para aprovechar la energía solar y reducir la
+                            dependencia de la red eléctrica.
                         </p>
+
+                        <a href="#contacto" class="service-link">
+                            Conocer más →
+                        </a>
 
                     </article>
 
 
+                    <!-- ELECTRICAL -->
+
                     <article class="service-card">
+
+                        <div class="service-number">
+                            02
+                        </div>
 
                         <div class="service-icon">
                             ⚡
@@ -141,17 +231,28 @@
                         </h3>
 
                         <p>
-                            Instalaciones, mantenimiento y soluciones
-                            eléctricas para hogares y negocios.
+                            Instalaciones, mantenimiento, diagnóstico y
+                            soluciones eléctricas para hogares, comercios
+                            y empresas.
                         </p>
+
+                        <a href="#contacto" class="service-link">
+                            Conocer más →
+                        </a>
 
                     </article>
 
 
+                    <!-- ENERGY -->
+
                     <article class="service-card">
 
+                        <div class="service-number">
+                            03
+                        </div>
+
                         <div class="service-icon">
-                            📊
+                            ◌
                         </div>
 
                         <h3>
@@ -160,8 +261,41 @@
 
                         <p>
                             Analizamos el consumo eléctrico para identificar
-                            oportunidades de ahorro y eficiencia.
+                            oportunidades de ahorro y mejorar la eficiencia
+                            energética.
                         </p>
+
+                        <a href="#contacto" class="service-link">
+                            Conocer más →
+                        </a>
+
+                    </article>
+
+
+                    <!-- FUTURE -->
+
+                    <article class="service-card">
+
+                        <div class="service-number">
+                            04
+                        </div>
+
+                        <div class="service-icon">
+                            ▣
+                        </div>
+
+                        <h3>
+                            Monitoreo energético
+                        </h3>
+
+                        <p>
+                            Soluciones para medir y comprender el consumo
+                            energético y tomar mejores decisiones.
+                        </p>
+
+                        <a href="#contacto" class="service-link">
+                            Conocer más →
+                        </a>
 
                     </article>
 
@@ -172,7 +306,76 @@
         </section>
 
 
-        <!-- NOSOTROS -->
+        <!-- ================= SOLUTIONS ================= -->
+
+        <section class="solutions section">
+
+            <div class="container">
+
+                <div class="solutions-content">
+
+                    <div class="solutions-text">
+
+                        <p class="section-tag">
+                            SOLUCIONES A MEDIDA
+                        </p>
+
+                        <h2>
+                            No todos los proyectos necesitan
+                            la misma solución.
+                        </h2>
+
+                        <p>
+                            Evaluamos las características de cada instalación,
+                            el consumo energético y los objetivos del cliente
+                            antes de proponer una solución.
+                        </p>
+
+                        <a href="#contacto" class="text-link">
+                            Hablemos de tu proyecto →
+                        </a>
+
+                    </div>
+
+
+                    <div class="solutions-types">
+
+                        <div class="solution-type">
+                            <span>01</span>
+                            <h3>Residencial</h3>
+                            <p>
+                                Sistemas solares y soluciones eléctricas
+                                para hogares.
+                            </p>
+                        </div>
+
+                        <div class="solution-type">
+                            <span>02</span>
+                            <h3>Comercial</h3>
+                            <p>
+                                Soluciones para comercios y pequeñas empresas.
+                            </p>
+                        </div>
+
+                        <div class="solution-type">
+                            <span>03</span>
+                            <h3>Industrial</h3>
+                            <p>
+                                Ingeniería y análisis para instalaciones
+                                de mayor escala.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
 
         <section id="nosotros" class="about section">
 
@@ -180,21 +383,23 @@
 
                 <div class="about-content">
 
-                    <div>
+                    <div class="about-title">
 
                         <p class="section-tag">
-                            SOBRE NOSOTROS
+                            SOBRE VOLTICA
                         </p>
 
                         <h2>
-                            Ingeniería aplicada a la energía
+                            Ingeniería con una visión
+                            energética.
                         </h2>
 
                     </div>
 
-                    <div>
 
-                        <p>
+                    <div class="about-text">
+
+                        <p class="about-lead">
                             Somos un emprendimiento enfocado en brindar
                             soluciones de ingeniería eléctrica y energía
                             solar.
@@ -202,8 +407,131 @@
 
                         <p>
                             Nuestro objetivo es ayudar a nuestros clientes
-                            a utilizar la energía de una manera más eficiente,
-                            segura y sostenible.
+                            a comprender mejor su consumo energético y
+                            encontrar soluciones que mejoren la eficiencia,
+                            seguridad y sostenibilidad de sus instalaciones.
+                        </p>
+
+                        <div class="about-values">
+
+                            <div>
+                                <strong>01</strong>
+                                <span>Ingeniería</span>
+                            </div>
+
+                            <div>
+                                <strong>02</strong>
+                                <span>Eficiencia</span>
+                            </div>
+
+                            <div>
+                                <strong>03</strong>
+                                <span>Sostenibilidad</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROCESS ================= -->
+
+        <section id="proceso" class="process section">
+
+            <div class="container">
+
+                <div class="section-header process-header">
+
+                    <p class="section-tag">
+                        NUESTRO PROCESO
+                    </p>
+
+                    <h2>
+                        De la idea a la solución.
+                    </h2>
+
+                    <p>
+                        Un proceso sencillo para entender tus necesidades
+                        y desarrollar una solución adecuada.
+                    </p>
+
+                </div>
+
+
+                <div class="process-grid">
+
+                    <div class="process-step">
+
+                        <span class="process-number">
+                            01
+                        </span>
+
+                        <h3>
+                            Analizamos
+                        </h3>
+
+                        <p>
+                            Conocemos tu instalación, consumo y necesidades.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-step">
+
+                        <span class="process-number">
+                            02
+                        </span>
+
+                        <h3>
+                            Diseñamos
+                        </h3>
+
+                        <p>
+                            Desarrollamos una propuesta técnica adaptada
+                            a tu proyecto.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-step">
+
+                        <span class="process-number">
+                            03
+                        </span>
+
+                        <h3>
+                            Ejecutamos
+                        </h3>
+
+                        <p>
+                            Implementamos la solución y verificamos
+                            su funcionamiento.
+                        </p>
+
+                    </div>
+
+
+                    <div class="process-step">
+
+                        <span class="process-number">
+                            04
+                        </span>
+
+                        <h3>
+                            Acompañamos
+                        </h3>
+
+                        <p>
+                            Te ayudamos a mantener y aprovechar
+                            tu sistema.
                         </p>
 
                     </div>
@@ -215,7 +543,7 @@
         </section>
 
 
-        <!-- CONTACTO -->
+        <!-- ================= CTA ================= -->
 
         <section id="contacto" class="contact section">
 
@@ -223,27 +551,39 @@
 
                 <div class="contact-box">
 
-                    <p class="section-tag">
-                        CONTACTO
-                    </p>
+                    <div class="contact-content">
 
-                    <h2>
-                        ¿Quieres conocer cuánto podrías ahorrar?
-                    </h2>
+                        <p class="section-tag">
+                            EMPECEMOS
+                        </p>
 
-                    <p>
-                        Contáctanos para analizar tu consumo y preparar
-                        una propuesta personalizada.
-                    </p>
+                        <h2>
+                            ¿Tienes un proyecto en mente?
+                        </h2>
+
+                        <p>
+                            Cuéntanos qué necesitas y analizaremos
+                            cómo podemos ayudarte.
+                        </p>
+
+                    </div>
+
 
                     <div class="contact-buttons">
 
-                        <a href="#" class="button button-primary">
+                        <a
+                            href="#"
+                            class="button button-primary whatsapp-button"
+                        >
                             WhatsApp
+                            <span>↗</span>
                         </a>
 
-                        <a href="#" class="button button-secondary">
-                            Solicitar cotización
+                        <a
+                            href="mailto:"
+                            class="button button-light"
+                        >
+                            Enviar correo
                         </a>
 
                     </div>
@@ -261,10 +601,42 @@
 
     <footer class="footer">
 
-        <div class="container">
+        <div class="container footer-content">
+
+            <div class="footer-brand">
+
+                <a href="#inicio" class="logo footer-logo">
+                    <span class="logo-mark">V</span>
+                    <span>Voltica</span>
+                </a>
+
+                <p>
+                    Energía solar y servicios eléctricos.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#contacto">Contacto</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
 
             <p>
                 © 2026 Voltica. Todos los derechos reservados.
+            </p>
+
+            <p>
+                Costa Rica
             </p>
 
         </div>
